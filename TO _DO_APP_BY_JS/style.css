@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-color: #dde4f4;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app {
+    background-color: #fff;
+    width: 300px;
+    height: 500px;
+    border: 5px solid #24710b;
+    border-radius: 50px 5px 50px 5px;
+    padding: 15px;
+    overflow-y: scroll;
+    box-shadow: 20px 20px 10px gray;
+
+  }
+  
+  .app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  
+  #addNew {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(25, 156, 40, 0.36);
+    padding: 5px 10px;
+    border-radius: 20px 1px 20px 1px;
+    cursor: pointer;
+    box-shadow: 2px 8px 3px rgb(161, 160, 160);
+  }
+ 
+  .fa-plus {
+    color: white;
+    font-size: 12px;
+    background-color: #348309cc;
+    padding: 4px;
+    border-radius: 50%;
+  }
+  
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  
+  #tasks div {
+    border: 1px solid #5b5c5c;
+    background-color: #307136cd ;
+    padding: 10px 20px;
+    display: grid;
+    gap: 4px;
+    border-radius: 30px 5px 30px 5px;
+    box-shadow: 2px 8px 3px rgb(171, 168, 168);
+
+
+  }
+  
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+    color: white;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: red;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .discription_font{
+    font-size: 13px;
+
+  }
+  
